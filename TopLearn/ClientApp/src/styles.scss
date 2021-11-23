@@ -1,0 +1,14 @@
+@import 'themes';
+
+@import '~@nebular/theme/styles/globals';
+
+@include nb-install() {
+  @include nb-theme-global();// append the install mixin inside of the nb-install
+};
+/* You can add global styles to this file, and also import other style files */
+
+
+
+.ta-r{
+  text-align: right;
+}
